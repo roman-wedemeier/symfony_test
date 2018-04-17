@@ -4,6 +4,7 @@
   "description": "Docker environment for a Symfony4 project",
   "main": "",
   "scripts": {
+    "composer": "docker exec -it docker-symfony4-php-fpm composer",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
